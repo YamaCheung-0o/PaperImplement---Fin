@@ -1,4 +1,4 @@
-# BFENet (Bilateral Feature Enhancement Network)
+# BFENet (Bilateral Feature Enhancement Network) reproduce the code
 
 A PyTorch reimplementation of the bilateral dual-stream interaction CNN for patient-level multi-label ophthalmic disease classification on OIA-ODIR.
 
@@ -27,7 +27,10 @@ eval.py
 pip install -r requirements.txt
 ```
 
-## Dataset layout (OIA-ODIR)
+## Data
+- ODIR-5K(on kaggle can be downloaded from https://www.kaggle.com/datasets/tanjem)ahamed/odir5k-classification
+
+## Dataset layout
 
 ```
 OIA-ODIR/
