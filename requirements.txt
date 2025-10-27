@@ -1,0 +1,11 @@
+# Core
+torch>=2.2
+torchvision>=0.17
+numpy>=1.23
+scikit-learn>=1.2
+PyYAML>=6.0
+pandas>=2.0
+opencv-python>=4.8
+
+# Utils
+tqdm>=4.66

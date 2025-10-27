@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+runs/
+checkpoints/
+*.ckpt
+.DS_Store

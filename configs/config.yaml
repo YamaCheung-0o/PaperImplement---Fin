@@ -1,0 +1,27 @@
+seed: 42
+
+# Data
+data_root: /homeb/lishunuo/data
+image_size: 448
+resize: 512
+num_classes: 8
+
+# Optim
+optimizer: sgd
+base_lr: 0.005
+momentum: 0.9
+weight_decay: 0.0005
+poly_power: 0.9
+
+# Train
+epochs: 50
+batch_size: 16
+num_workers: 4
+
+# Model
+backbone: resnet50  # resnet18|resnet34|resnet50
+pretrained: true
+
+# Logging/ckpt
+out_dir: runs
+save_every: 1
